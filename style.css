@@ -5,29 +5,39 @@ body{
   text-align: center;
   line-height: 1.6;
   width: 400px;
-  margin: 0px auto;
+  margin: 100px auto;
 }
-
 img{
   border-radius: 50%;
 }
-
 p{
   color: rgb(134, 134, 139);
   font-family: "Open Sans";
   text-align: justify;
 }
-
 h1{
   font-family: "Roboto";
   letter-spacing: 1px;
 }
-
 h2{
   font-family: "Roboto";
   letter-spacing: 1px;
 }
-
-#linkedin{
+h1:hover{
+  color: rgb(134, 134, 139);
+}
+h2:hover{
+  color: rgb(134, 134, 139);
+}
+ul {
+  list-style: none;
+}
+li{
+  display: inline-flex;
+  width: 100px;
+  text-align: center;
+}
+#sm{
   font-size: 40px;
+  color: grey;
 }
