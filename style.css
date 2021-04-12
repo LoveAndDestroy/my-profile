@@ -1,0 +1,33 @@
+body{
+  background: rgb(245, 245, 245);
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  line-height: 1.6;
+  width: 400px;
+  margin: 0px auto;
+}
+
+img{
+  border-radius: 50%;
+}
+
+p{
+  color: rgb(134, 134, 139);
+  font-family: "Open Sans";
+  text-align: justify;
+}
+
+h1{
+  font-family: "Roboto";
+  letter-spacing: 1px;
+}
+
+h2{
+  font-family: "Roboto";
+  letter-spacing: 1px;
+}
+
+#linkedin{
+  font-size: 40px;
+}
