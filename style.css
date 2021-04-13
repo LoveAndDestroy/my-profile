@@ -1,43 +1,73 @@
 body{
   background: rgb(245, 245, 245);
-  font-size: 17px;
-  line-height: 25px;
-  text-align: center;
-  line-height: 1.6;
-  width: 400px;
-  margin: 100px auto;
-}
-img{
-  border-radius: 50%;
 }
 p{
   color: rgb(134, 134, 139);
   font-family: "Open Sans";
   text-align: justify;
 }
-h1{
+strong{
+  color: rgb(115, 115, 115);
+}
+h1, h2{
   font-family: "Roboto";
   letter-spacing: 1px;
+  font-weight: bolder;
 }
-h2{
-  font-family: "Roboto";
-  letter-spacing: 1px;
-}
+/* Maybe I should delete this code? */
+/*
 h1:hover{
   color: rgb(134, 134, 139);
 }
 h2:hover{
   color: rgb(134, 134, 139);
 }
-ul {
+*/
+ul{
   list-style: none;
 }
-li{
+.horiz_list{
   display: inline-flex;
-  width: 100px;
-  text-align: center;
+  text-align: justify;
 }
-#sm{
+.social_icon{
   font-size: 40px;
+  width: 100px;
+  /* text-align: justify; */
   color: grey;
 }
+
+.card{
+  width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  /* padding-bottom: 50px */
+}
+.card:hover{
+  border-radius: 3px;
+  box-shadow: 2px 10px 30px rgb(230, 230, 230);
+}
+.container{
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  line-height: 1.6;
+}
+#profile_img{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+#insta_hover:hover{
+  color: rgb(251, 57, 88);
+}
+#linkedin_hover:hover{
+  color: rgb(40,103,178);
+}
+
+/* Don't need yet */
+/*
+#visited_blue:visited{
+  color: blue
+}
+*/
