@@ -1,4 +1,4 @@
-body{
+400body{
   background: rgb(247, 247, 247);
 }
 p{
@@ -60,6 +60,14 @@ ul{
 }
 
 
+@media (max-width: 540px) {
+  #profile_̨img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+  }
+}
+
 #profile_img{
   width: 600px;
   height: 600px;
@@ -77,18 +85,12 @@ ul{
 
 @media (max-width: 540px) {
   .card{
-    width: 500px;
-    /*     background-color: blue;    */
-  }
-   #profile_̨img{
-    width: 520px;
-    height: 520px;
+    width: 400px;
   }
 }
 @media (max-width: 370px) {
   .card{
     width: 350px;
-    /*     background: red;    */
   }
   #profile_img{
     width: 350px;
