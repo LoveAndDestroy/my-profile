@@ -39,9 +39,9 @@ ul{
 
 .card{
   width: 500px;
-  margin: 30px auto;
-  padding: 20px;
-  /* padding-bottom: 50px */
+  margin: 20px auto;
+  padding: 10px 20px;
+  /* padding-bottom: 50px; */
 }
 .card:hover{
   border-radius: 3px;
@@ -52,6 +52,11 @@ ul{
   line-height: 25px;
   text-align: center;
   line-height: 1.6;
+}
+@media (max-width 540px) {
+  .card {
+    width: 300px;
+  }
 }
 #profile_img{
   width: 500px;
