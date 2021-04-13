@@ -95,3 +95,12 @@ ul{
     height: 580px;
   }
 }
+@media (max-width: 370px) {
+  .card{
+    width: 230px
+  }
+  #profile_img{
+    width: 230px;
+    height: 230px;
+  }
+}
