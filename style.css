@@ -1,4 +1,4 @@
-400body{
+body{
   background: rgb(247, 247, 247);
 }
 p{
@@ -16,6 +16,7 @@ h1, h2{
 }
 a{
   text-decoration: none;
+  font-family: "Open Sans";
 }
 ul{
   list-style: none;
