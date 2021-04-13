@@ -79,28 +79,19 @@ ul{
 }
 @media (max-width: 540px) {
   .card{
-    width: 400px
+    width: 520px
   }
   #profile_img{
-    width: 400px;
-    height: 400px;
-  }
-}
-@media (max-width: 720px) {
-  .card{
-    width: 580px
-  }
-  #profile_img{
-    width: 580px;
-    height: 580px;
+    width: 520px;
+    height: 520px;
   }
 }
 @media (max-width: 370px) {
   .card{
-    width: 230px
+    width: 350px
   }
   #profile_img{
-    width: 230px;
-    height: 230px;
+    width: 350px;
+    height: 350px;
   }
 }
