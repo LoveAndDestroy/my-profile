@@ -1,5 +1,5 @@
 body{
-  background: rgb(245, 245, 245);
+  background: rgb(247, 247, 247);
 }
 p{
   color: rgb(134, 134, 139);
@@ -13,6 +13,9 @@ h1, h2{
   font-family: "Roboto";
   letter-spacing: 1px;
   font-weight: bolder;
+}
+a{
+  text-decoration: none;
 }
 /* Maybe I should delete this code? */
 /*
@@ -33,15 +36,13 @@ ul{
 .social_icon{
   font-size: 40px;
   width: 100px;
-  /* text-align: justify; */
   color: grey;
 }
-
 .card{
   width: 500px;
   margin: 20px auto;
   padding: 10px 20px;
-  /* padding-bottom: 50px; */
+  padding-bottom: 50px;
 }
 .card:hover{
   border-radius: 3px;
@@ -52,6 +53,14 @@ ul{
   line-height: 25px;
   text-align: center;
   line-height: 1.6;
+}
+.btn{
+  background-color: rgb(115, 115, 115);
+  padding: 15px 20px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 4px;
+  color: white;
 }
 #profile_img{
   width: 500px;
@@ -64,13 +73,9 @@ ul{
 #linkedin_hover:hover{
   color: rgb(40,103,178);
 }
-
-/* Don't need yet */
-/*
-#visited_blue:visited{
-  color: blue
+#visited_nounderline:visited{
+  fon
 }
-*/
 @media (max-width: 540px) {
   .card{
     width: 400px
