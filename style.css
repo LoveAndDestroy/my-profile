@@ -6,7 +6,6 @@ p{
   font-family: "Open Sans";
   /*   text-align: justify;  */
 }
-
 strong{
   color: rgb(115, 115, 115);
 }
@@ -18,18 +17,11 @@ h1, h2{
 a{
   text-decoration: none;
 }
-/* Maybe I should delete this code? */
-/*
-h1:hover{
-  color: rgb(134, 134, 139);
-}
-h2:hover{
-  color: rgb(134, 134, 139);
-}
-*/
 ul{
   list-style: none;
 }
+
+
 .horiz_list{
   display: inline-flex;
   text-align: justify;
@@ -63,6 +55,11 @@ ul{
   border-radius: 4px;
   color: white;
 }
+.btn:hover{
+  background-color: rgb(100, 100, 100);
+}
+
+
 #profile_img{
   width: 500px;
   height: 500px;
@@ -70,13 +67,14 @@ ul{
 }
 #insta_hover:hover{
   color: rgb(251, 57, 88);
+  font-size: 43px;
 }
 #linkedin_hover:hover{
   color: rgb(40,103,178);
+  font-size: 43px;
 }
-#visited_nounderline:visited{
-  fon
-}
+
+
 @media (max-width: 540px) {
   .card{
     width: 500px;
