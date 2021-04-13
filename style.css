@@ -40,7 +40,7 @@ ul{
   color: grey;
 }
 .card{
-  width: 600px;
+  width: 500px;
   margin: 20px auto;
   padding: 10px 20px;
   padding-bottom: 50px;
@@ -79,16 +79,18 @@ ul{
 }
 @media (max-width: 540px) {
   .card{
-    width: 520px
+    width: 500px;
+    /*     background-color: blue;    */
   }
-  #profile_img{
+   #profile_̨img{
     width: 520px;
     height: 520px;
   }
 }
 @media (max-width: 370px) {
   .card{
-    width: 350px
+    width: 350px;
+    /*     background: red;    */
   }
   #profile_img{
     width: 350px;
