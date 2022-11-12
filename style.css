@@ -12,7 +12,7 @@ strong{
 h1, h2{
   font-family: "Roboto";
   letter-spacing: 1px;
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 a{
   text-decoration: none;
