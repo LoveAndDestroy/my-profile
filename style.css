@@ -33,15 +33,16 @@ ul{
   color: grey;
 }
 .card{
-  width: 600px;
+  width: 350px;
   margin: 20px auto;
   padding: 10px 20px;
   padding-bottom: 50px;
 }
-.card:hover{
+/*.card:hover{
   border-radius: 3px;
   box-shadow: 2px 10px 30px rgb(230, 230, 230);
 }
+*/
 .container{
   font-size: 17px;
   line-height: 25px;
@@ -61,31 +62,32 @@ ul{
 }
 
 #profile_img{
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
 }
 #insta_hover:hover{
   color: rgb(251, 57, 88);
-  font-size: 43px;
+  /* font-size: 43px; */
 }
 #linkedin_hover:hover{
   color: rgb(40,103,178);
-  font-size: 43px;
+  /* font-size: 43px; */
 }
 
-
+/*
 @media (max-width: 540px) {
   .card{
     width: 400px;
   }
 }
-@media (max-width: 370px) {
+@media (max-width: 350px) {
   .card{
-    width: 350px;
+    width: auto;
   }
   #profile_img{
-    width: 350px;
-    height: 350px;
+    width: 340px;
+    height: 340px;
   }
 }
+*/
